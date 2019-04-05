@@ -1,2 +1,2 @@
 # Openstack to Woodstack
-horizon
+horizon (openstack_dashboard)
