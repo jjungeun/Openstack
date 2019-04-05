@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{% trans "Main Page" %}{% endblock %}
+
+{% block main %}
+  <div class="col-sm-6" id="global_usage">
+    <h2>Projects</h2>
+      {{ tenants_table.render }}
+    <h2>Instances</h2>
+      {{ instances_table.render}}
+  </div>
+{% endblock %}
